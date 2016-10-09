@@ -1,0 +1,99 @@
+body {
+    background-color: #d5f3e2;
+    font-family: futura, sans-serif;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #525050;
+}
+
+header {
+    background-color: #b4c2d0;
+    position: relative;
+    width: 100%;
+    top: -21px;
+    height: 80px;
+    border-bottom: 2px solid #8c8a8a;
+    color: black;
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+}
+
+header p {
+    position: relative;
+    top: -10px;
+}
+
+h2 {
+    color: black;
+    border-bottom: 3px solid white;
+    position: relative;
+    top: -15px;
+}
+
+.outer {
+    width: 32%;
+    float: left;
+    position: relative;
+    padding-bottom: 15px;
+    border: 3px solid #ffffff;
+    margin: 4px;
+    background-color: #fff8e7;
+}
+
+.outer:hover, .outer:hover h2 {
+    border-color: #b4c2d0;
+}
+
+.outer p {
+    font-size: 14px;
+}
+
+.enter {
+    padding: 15px;
+    font-size: 13px;
+}
+
+.calculate {
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.calculate:hover, input:hover {
+    border: 1px solid #8c8a8a;
+}
+
+.calculate:focus:not(hover), .input:focus:not(hover) {
+    border: 1px solid black;
+}
+
+.answer {
+    padding: 15px;
+    color: black;
+}
+
+.input {
+    outline: none;
+    background-color: #d5f3e2;
+}
+
+#prob1 {
+    padding-top: 53px;
+}
+
+#prob3 {
+    padding-top: 91px;
+}
+
+footer {
+    clear: left;
+    position: relative;
+    padding-top: 50px;
+}
